@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Assignment One</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="About_Me.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="Puppies.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Puppies</a>
+    <a href="https://www.hrw.org/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="https://en.wikipedia.org/wiki/Friends" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Friends</a>
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Enemy</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_One.htm">Project One</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_Two.htm">Project Two</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Three.htm">Project Three</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Four.htm">Project Four</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Five.htm">Project Five</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Six.htm">Project Six</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Seven.htm">Project Seven</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Eight.htm">Project Eight</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Nine.htm">Project Nine</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Ten.htm">Project Ten</a>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-red">Project One</h1>
+      <p>When beginning this project, I was very intimidated, since even though I have experience coding I have never worked in HTML, or anything else to do with web development. It turns out that those concerns were properly held since I had several problems that I needed to overcome to finish this assignment. In retrospect the majority of my problems came through me making mistakes that costed me time, and patience. While the assignment it's self was not bad at all.</p>
+        <h2 class="w3-text-red">The Start</h2>
+        <p>To start, I followed Madison Dunaway's instructions. They were very helpful at first. They got me to the point of creating an account on Github, and creating a repository. However at this point I ran into my first problem that being the fact that I have a windows computer which doesnt have the versitility within it's command prompt that a Mac has. To resolve this I had to download git. </p>
+        <img src="Images/Week1/Screenshot%20(8).png" alt="Git download website" style="width:800px;height:550px;">
+        <p>After downloading git I was able to use that in a very similar manner to the way that Madison used the command prompt on the Mac.  Now with the command prompt problem solved I just needed to save the reposiory to a documents folder for this class. </p>
+        <img src="Images/Week1/Screenshot%20(7).png" alt="Code saving the repository and giving the first push to website" style="width:1100px;height:650px;">
+        <h2 class="w3-text-red">The Website Design</h2>
+        <p>With the repository intilized I was in the perfect position to simply find a preset edit a couple of things, push it or be done. However that is not at all how it ended up going. To start with when using brakets, a text editing software reccommened to the class because of how friendly it is to web design, I couldn't access parts of the functionality. Most importantly to me initially was the fact that the live previes feature for whatever reason was not showing any results for the code that I put in. The code that I was putting in came from <a href="https://www.w3schools.com/w3css/w3css_templates.asp"> w3schools.com</a>.</p>
+        <img src="Images/Week1/Screenshot%20(10).png" alt="screenshot of W3schools template I used" style="width:1100px;height:500px;">
+        <p>At that point, I was worried, but figured that I could just push the template to the website, and then just do the work very slowly from there. That is when I noticed the much larger problem that I did not have a push command available to me at all on Brackets. I won't keep you in suspence, what ended up being my problem was that I had opened the file, and not the folder where the repository was. So what I think I was trying to do was just push and .html out into the ether. Once I finished that I got to work on making the template my own.</p>
+        <img src="Images/Week1/Screenshot%20(15).png" alt="screenshot of W3schools template I used" style="width:900px;height:500px;">
+        <p>The First thing that I wanted to change was the color them of the website. The template that I picked out had a very nice navigation bar and side bar to work with, but I wasn't a fan of the blue color. The website also originally was purposed to be the website for someone who is running a buissness so some of the tabs needed to be either removed or repurposed to things that I find funny. The thing that probably caused me the most problems when trying to figure out the layout was the footer.</p>
+        <h2 class="w3-text-red">The Footer</h2>
+        <img src="Images/Week1/FooterCode.png" alt="Code for the footer" style="width:900px;height:500px;">
+        <p>What cause me so many issues was my own hubris and misunderstanding of how formating works. This code that your looking at now is nearly the final form, however it has gone through several iterations. Originaly the template didn't have a contact me portion in the bottom, which was not something I could abide. So I got to work adding the button links to various ways to get ahold of me. That went smoothly, except that it made the footer a little larger. Not too cataclysmic. The choice that caused me problems was my bright idea to have the footer always at the bottom of the page. Really at the time I didn't realize that was my intention, but I noticed on pages where I didn't have enough text sometimes my footer would be below the text but with white space below it. That bothered me. I felt the best way to go about fixing this was to add the bottom command to the div for the contant information and the powered by w3schools info. </p><p>This caused it's own aesthetic issues. What would happen is the bottom most footer would intersect straight over the contact information. In my infinite wisdom, I thought "Easy fix, just increase the padding for Contact Me, and it'll be far enough away!" How young and foolish I was then. In order to get the contact information not be covered the padding for the window had to be increased up to 64 from 16. Now more then any other point in this write up I wish I had taken a screenshot at the time because it looked awful. The footer would take up roughly the bottom third of the screen at any given time and would completely block out most of the paragraphs toward the bottom of the page. The worst part about it.</p><p>I kept it like that.</p><p>Not for long, but there was a point in time where I looked at it and I thought well... if you scroll down and I have a bunch of blank space at the bottom it'll be fine. My grand plan to stop you the user from seeing white space was to instead flood the bottom of your screen with a tangerine footer.</p><p>That showed me at that moment that I needed to step away for a bit because I was starting to compromise on the overall useability and functionality, for literaly no positive benefit. I think at that time I had just lost my mind a little.</p><p>Luckily I came back to the project before it was due and reconsidered a design choice, and in the end I have the footer laid out as they are now. Perhaps on some pages it may not look the best, for now. However it us laid out so that when I expand pages it'll be able to accomadate that, and won't take away from the user experience.</p><h6 class="w3-text-red">Addendum on Footers</h6><p>Now looking at this code, if you've worked in html before, you might notice an issue. For any of you who haven't I'll point it out. The link for my email in the footer, doesn't work. As of now I'm still not entirely sure how to fix it, so there it stays as a placeholder. (please don't be upset Madison I would remove it but I plan on making it work at one point and if it isn't there I'll forget).</p>
+        <h2 class="w3-text-red">Conclusion</h2>
+        <p>When starting this project I very concerned about wether or not I'd be able to finish this assignment, and if so what I'd be turning in would be something that I'm proud of. I'm happy to say that I think that this website is off to a really solid start. After the rocky start I had, I really started to enjoy working on the sight, and trying to get things to look how I want them to, and to have things laid out in a way that I enjoy. More then just my own personal enjoyment I also feel like a learned alot. I learned about file management. I learned about html, and most importantly I learned that Squarespace should be out business. </p>
+
+
+    </div>
+      <div class="w3-third w3-container">
+      </div>
+
+
+    <div class="w3-third w3-container">
+
+    </div>
+  </div>
+
+  <!-- Pagination -->
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-16">
+      <h4>Contact Me</h4>
+        <a href="proctor_john@wheatoncollege.edu" class="w3-bar-item w3-button w3-theme-l1">Email</a>
+        <a href="https://www.instagram.com/john.m.proctor/" class="w3-bar-item w3-button w3-theme-l1">Instagram</a>
+        <a href="https://twitter.com/JohnMProcto18" class="w3-bar-item w3-button w3-theme-l1">Twitter</a>
+
+
+    </div>
+
+    <div class="w3-container   w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

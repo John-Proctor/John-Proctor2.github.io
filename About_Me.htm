@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="About_Me.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="Puppies.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Puppies</a>
+    <a href="https://www.hrw.org/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="https://en.wikipedia.org/wiki/Friends" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Friends</a>
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Enemy</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_One.htm">Project One</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_Two.htm">Project Two</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Three.htm">Project Three</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Four.htm">Project Four</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-red">About Me!</h1>
+      <p>Who am I? That's a great question and always a fun one to answer. I feel we'll start off with the basics. My name is John Proctor I was born in raised in Massachusetts, and I am a student at Wheaton College, in Norton. Here at Wheaton I am a physics major, however I am thinking that by the end of the semester I'll be a chemistry major as well. You may also want to know why I'm taking this course, which is another very good question. I'm taking it because it is the a great opportunity to learn about fabrication which is something that I never had the opprotunity to do before.</p><p>Before this class started I thought the only way you could learn how to use the laser cutter or 3D printers here would be to just go in, at hours that didn't really work for me, and pester one of the folks who worked there. Which is something I have a really hard time doing even if it is for something that I am really interested in. Even then it seemed like if I were to go through with that big first step, the folks were mostly just there to train you so that you didn't break anything (which is fair). Not so much to walk you through the process to allow you to be confident or knowledgable enough to do anything neat. Which means that to get to that stage it would take a  large amount of initiative to start, and whenever I did I was concerned with how far reaching all of the topics were so I didn't even know where to start.</p><p>So in short I felt like this course would be perfect for me, it seems like it's goal is to get your feet wet in the world of fabrication, while making sure you don't drown in the complexities, and for that I'm excited!</p>
+        <h2 class="w3-text-red">Mid Semester Thoughts</h2>
+        <p>So we are half way through the semester yay! I feel the class has gone really well all things considered. I've had several problems throughout the semester, but most of those were my own problems. I feel we've learned a lot of interesting things and we've got lots more things to learn going forward so that's good.</p>
+    </div>
+
+  </div>
+
+  <!-- Pagination -->
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-16">
+      <h4>Contact Me</h4>
+        <a href="proctor_john@wheatoncollege.edu" class="w3-bar-item w3-button w3-theme-l1">Email</a>
+        <a href="https://www.instagram.com/john.m.proctor/" class="w3-bar-item w3-button w3-theme-l1">Instagram</a>
+        <a href="https://twitter.com/JohnMProcto18" class="w3-bar-item w3-button w3-theme-l1">Twitter</a>
+
+
+    </div>
+
+    <div class="w3-container  w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
