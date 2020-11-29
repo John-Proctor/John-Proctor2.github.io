@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Assignment Eleven</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="About_Me.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="Puppies.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Puppies</a>
+    <a href="https://www.hrw.org/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="https://en.wikipedia.org/wiki/Friends" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Friends</a>
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Enemy</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_One.htm">Project One</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_Two.htm">Project Two</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Three.htm">Project Three</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Four.htm">Project Four</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Five.htm">Project Five</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Six.htm">Project Six</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Seven.htm">Project Seven</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Eight.htm">Project Eight</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Nine.htm">Project Nine</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Ten.htm">Project Ten</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-blue">Project Eleven</h1>
+        <p>This project I feel did a good job covering alot of material relitivly quickly. For me I have experience coding in c++ and in arduino, so this wasn't really a whole lot of new things. It was still pretty interesting though.</p>
+        <h2 class="w3-text-blue">Video One</h2>
+        <p>The first video was basically Kevin walking us through what tinkercad circuits is. We set up an LED which is a light emmitting diode. That means that it is a diode, has two terminal and conducts energy in one direction, that also produces light. We also made a button which does what you've seen buttons do. You press them, and it allows current to pass through it in a different way then usual. We also used a petitiometer which is basically a resistor that you can change the resistance of by spinning it. Oh and I almost forgot we found out that you need to use resistors or else you blow up your LEDs because the current will be too high.</p>
+        <img src="Images/Week11/Reisitor.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/Start%20Build%20One.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/LightWorks.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/BadButton.png" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/SpinnyBoi.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/SpinnyBoiOff.PNG" alt="One arm" style="width:250px;height:250px;">
+        <h2 class="w3-text-blue">Video Two</h2>
+        <p>This video was all about coding in arduino. It is very similar to coding in c++. I have experience coding in both of these so this video was just a nice reminder. A variable is just a place to store information. In code you can do all of the mathematical operations that you can do with a calculator. The only ones we cared about in the video are +,-,*,/ and %. % is called module, and it basically finds the remainder when divided by a number. We also did basic logical operations. The ones we cared about are if and else. These do what there name says if(statement=something) then it does what a command else it does some other command.</p>
+        <img src="Images/Week11/CodeStart.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/Aruino%20and%20Shape.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/IfElseStuff.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/MoreCoding.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/MoneyAnalogy.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/MoreMoneyStuff.PNG" alt="One arm" style="width:250px;height:250px;">
+        <h2 class="w3-text-blue">Video Three</h2>
+        <p>For video three we just combined the coding and the building of a cicuit.</p>
+        <img src="Images/Week11/ButtonCodeWorking.PNG" alt="One arm" style="width:500px;height:250px;">
+        <img src="Images/Week11/Video3Code.PNG" alt="One arm" style="width:400px;height:250px;">
+        <h2 class="w3-text-blue">I Know How To Code</h2>
+        <p>For the assignment that you wanted us to write some code so that you would know that I know how to write code. So I I wrote a for loop with a if, else, if else, with some basic math stuff thrown in there including a module. It's just a thing that is going to count for a while with different conditions depending on wether the number is even or odd.</p>
+        <img src="Images/Week11/IKNOWHOWTOCODEKEVIN.PNG" alt="One arm" style="width:500px;height:500px;">
+        <h2 class="w3-text-blue">Coding Assignment One</h2>
+        <p>This assignment we wanted to make sure that when you pressed a button several LED's would turn on then off in a sequential order from left to right. This was just having a bunch of LED's plugged into the arduino so that you can have it turn off and on depending on a button push.</p>
+        <img src="Images/Week11/MULTILIGHT.PNG" alt="One arm" style="width:500px;height:500px;">
+        <img src="Images/Week11/SetUP%20LIGHT.PNG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week11/LoopLIGHTS.PNG" alt="One arm" style="width:250px;height:500px;">
+
+
+
+
+
+
