@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Assignment Nine</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="About_Me.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="Puppies.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Puppies</a>
+    <a href="https://www.hrw.org/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="https://en.wikipedia.org/wiki/Friends" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Friends</a>
+    <a href="https://en.wikipedia.org/wiki/Jeff_Bezos" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Enemy</a>
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_One.htm">Project One</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="/Assignment_Two.htm">Project Two</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Three.htm">Project Three</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Four.htm">Project Four</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Five.htm">Project Five</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Six.htm">Project Six</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Seven.htm">Project Seven</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Eight.htm">Project Eight</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Nine.htm">Project Nine</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Assignment_Ten.htm">Project Ten</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-blue">Project Ten</h1>
+        <h2 class="w3-text-blue">SI units</h2>
+        <p>SI units are the base units that scientists have decided to base all other units off of. The eight units are candela, for light, mole for amount of things, meter for distance, kilogram for weight, second for time, ampere for current, and kelvin for temperature. All of these units can be combined to make other units, and can have it's size modified with prefixes. The prefixes can change the magnitude of the unit up and down by factors of 10.</p>
+        <h2 class="w3-text-blue">Voltage</h2>
+        The units of voltage are volts (V). It has a gross base unit derivation of 1*kg*m^2*s^-3*A^-1. The voltage is about the difference between the electric potential energy in two points. That difference would be how much the charge is going to 'flow' from one place to another.
+        <h2 class="w3-text-blue">Current</h2>
+         The current uses the units of Amps. It is a measure of how quickly the electricty flows.
+        <h2 class="w3-text-blue">Resistance</h2>
+        The resistance is the measure of how much the charge is slowed down. It is measured in units of ohms.
+        <h2 class="w3-text-blue">Ohm's Law</h2>
+        <p>Ohm's law is the relation ship between current voltage in resistance that we can use to look at many electrical system in order to find these useful characteristics. It is I= V/R.</p>
+        <h2 class="w3-text-blue">Power</h2>
+        <p>Power has the units of Watts and it represents the amount of energy spent over time.</p>
+        <h2 class="w3-text-blue">Parallel and Series</h2>
+        <p>Now these two terms are used to describe different positions of resistors on a circut. When electricy is moving through the circuit it is going to move through different resistors, and depending on the path the risistor will affect the overall risistance in different ways.</p>
+        <p>With series resistance that means that the circuits are all in line with one another. That means that should electricy pass through one it can only pass through the next one. If that is the case then the resistances add together to give you the total risistance.</p>
+        <p>When dealing with parallel ristance that means that the elecricty, could go through several different resistors. If that is the case then those resistors are in parallel with one another. When that is the case to find the total resistance you add up the inverse of each resistor to find the inverse resistance. Then you can flip it. So that would be like 1/R= 1/N + 1/N</p>
+
+        <img src="Images/Week10/IMG-1912.JPG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week10/IMG-1913.JPG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week10/IMG-1914.JPG" alt="One arm" style="width:250px;height:250px;">
+        <img src="Images/Week10/IMG-1915.JPG" alt="One arm" style="width:250px;height:250px;">
+
+
+        <p>You could click <a href="Images/Week9/GrootShirt.svg" target="_blank">here</a> to download the files I used.</p>
+
